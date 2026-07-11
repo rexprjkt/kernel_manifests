@@ -60,6 +60,7 @@
   <!-- rodin kernel sources -->
   <project path="kernel_device_modules-6.6" name="rexprjkt/android_kernel_device_modules-6.6" revision="17.0" remote="github">
     <linkfile src="build.config.rodin" dest="build.config" />
+    <linkfile src="build_mgk_64_k66.sh" dest="build_mgk_64_k66.sh" />
   </project>
   <project path="vendor/mediatek/kernel_modules" name="rexprjkt/android_vendor_mediatek_kernel_modules" revision="16.2" remote="github" />
 </manifest>
