@@ -16,7 +16,7 @@
     <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
   </project>
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="ddk" />
-  <project path="kernel-6.6" name="kernel/common" revision="android15-6.6-2026-10" />
+  <project path="kernel-6.6" name="kernel/common" revision="android15-6.6-lts" />
   <!-- Uncomment for local testing only -->
   <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" / -->
   <project path="kernel/configs" name="kernel/configs" revision="main"/>
